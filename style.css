@@ -78,7 +78,7 @@ header section button{
 }
 @media(max-width: 576px){
 	.para{
-		font-size: 1em;
+		font-size: 0.9em;
 		margin-top: 0.5rem;
 	}
 }
