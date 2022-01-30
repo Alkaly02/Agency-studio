@@ -121,5 +121,6 @@ header section button{
 @media(max-width: 576px){
 	.card-text{
 		font-size: 1em;
+		text-align: justify;
 	}
 }
