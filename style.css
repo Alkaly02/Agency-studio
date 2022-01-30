@@ -74,7 +74,7 @@ header section button{
 	font-size: 1.1em;
 	font-weight: bold;
 	color: #667882;
-	margin-top: 1rem;
+	margin-top: 0.9rem;
 }
 @media(max-width: 576px){
 	.para{
