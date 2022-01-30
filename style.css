@@ -84,6 +84,8 @@ header section button{
 }
 .card{
 	border: none;
+	display: flex;
+	flex-direction: column;
 }
 .card i{
 	display: flex;
@@ -123,4 +125,42 @@ header section button{
 		font-size: 1em;
 		text-align: justify;
 	}
+}
+
+/*================================= Portfolio Section ===========================*/
+#portfolio .para{
+	margin-top: 0;
+}
+.img-hover{
+	display: none;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: rgba(220, 238, 5, 0.85);
+	position: absolute;
+}
+.img-hover > span{
+	width: 100%;
+	height: inherit;
+	display: flex;
+	align-items: center;
+}
+.img-hover span i{
+	display: inline-block;
+	margin-top: 35%;
+	font-size: 2em;
+	border: none;
+}
+#portfolio a:hover .img-hover{
+	display: inline-block;
+}
+
+
+/*----------------------------- MODAL ---------------------------*/
+.modal-footer{
+	border: none;
+}
+.modal-footer button{
+	font-weight: 700;
+ 	margin: 1rem 0 2rem 0 !important;"
 }
