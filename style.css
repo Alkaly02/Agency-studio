@@ -118,3 +118,8 @@ header section button{
 	font-weight: 400;
 	font-family: serif;
 }
+@media(max-width: 576px){
+	.card-text{
+		font-size: 1em;
+	}
+}
