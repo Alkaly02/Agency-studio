@@ -33,11 +33,11 @@ header section h2{
 	font-family: serif;
 	font-size: 2.5em;
 	text-shadow: 2px 2px 5px #000;
-	margin-top: -1rem;
 }
 header section h1{
 	font-size: 5em;
 	font-weight: bold;
+	text-shadow: 2px 2px 10px #000;
 }
 @media(max-width: 992px){
 	header section h2{
@@ -59,4 +59,56 @@ header section button{
 	font-weight: bolder !important;
 	font-size: 1.2em;
 	color: #34393E !important;
+}
+
+/*================================== SERVICES SECTION ===============================*/
+.h2-title{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 2.5em;
+	margin-top: 2rem;
+}
+.para{
+	font-family: serif;
+	font-style: italic;
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #667882;
+	margin-top: 1rem;
+}
+.card{
+	border: none;
+}
+.card i{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 120px;
+	height: 120px;
+	font-size: 4em;
+	margin: auto;
+	border-radius: 50% !important;
+	border: 1px solid;
+	color: white;
+}
+.card-title{
+	font-family:  'Poppins', sans-serif;
+	font-weight: 700;
+	margin: 1.1rem 0;
+}
+@media(max-width: 768px){
+	.card-title{
+		font-size: 1.2em;
+	}
+}
+@media(max-width: 576px){
+	.card-title{
+		font-size: 1.6em;
+	}
+}
+.card-text{
+	color: #667882;
+	font-size: 1.1em;
+	font-weight: 400;
+	font-family: serif;
 }
