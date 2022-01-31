@@ -164,3 +164,24 @@ header section button{
 	font-weight: 700;
  	margin: 1rem 0 2rem 0 !important;"
 }
+
+/*============================== About Section ==================*/
+#about img{
+	width: 25%;
+	border: 10px solid rgba(102, 120, 130, 0.2);
+	border-radius: 50%;
+}
+@media(max-width: 768px){
+	#about img{
+		width: 100%;	
+	}
+}
+
+@media(max-width: 578px){
+	#about .card-title{
+		font-size: 1em;
+	}
+	#about .card-text{
+		font-size: 0.85em;
+	}
+}
