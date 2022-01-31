@@ -165,7 +165,7 @@ header section button{
 }
 .modal-footer button{
 	font-weight: 700;
- 	margin: 1rem 0 2rem 0 !important;"
+ 	margin: 1rem 0 2rem 0 !important;
 }
 
 /*============================== About Section ==================*/
@@ -226,4 +226,23 @@ header section button{
 	#companies a{
 		font-size: 1.3em;
 	}
+}
+
+/*========================= Footer ====================================*/
+footer{
+	background: url('img/map.jpg');
+}
+footer h2{
+	color: white;
+}
+footer input::placeholder, textarea::placeholder{
+	font-weight: 700;
+}
+textarea{
+	border-radius: 5px;
+	width: 100%;
+}
+footer form button{
+	font-weight: 700 !important;
+ 	margin: 1rem 0 2rem 0 !important;
 }
