@@ -1,3 +1,6 @@
+html{
+	scroll-behavior: smooth;
+}
 header{
 	height: 100vh;
 	background: url('img/header-bg.jpg') no-repeat;
@@ -33,7 +36,21 @@ header section h2{
 	font-family: serif;
 	font-size: 2.5em;
 	text-shadow: 2px 2px 5px #000;
+	animation: title 5s cubic-bezier(0.3, 0, 0.7, 1.0) infinite;
 }
+/*------- @keyframes for h2 ------*/
+@keyframes title{
+	0%{
+		transform: translate(0);
+	}
+	50%{
+		transform: translate(20px, -10px) scale(1.1, 1.1);
+	}
+	100%{
+		transform: translate(30px);
+	}
+}
+
 header section h1{
 	font-size: 5em;
 	font-weight: bold;
@@ -59,8 +76,21 @@ header section button{
 	font-weight: bolder !important;
 	font-size: 1.2em;
 	color: #34393E !important;
+	animation: button 5s cubic-bezier(0.3, 0, 0.7, 1.0) infinite;
 }
-
+/*------- @keyframes for button --------*/
+@keyframes button{
+	0%{
+		transform: translate(0px);
+	}
+	50%{
+		transform: translate(20px, -10px);
+	}
+	100%{
+		transform: translate(30px);
+		box-shadow: -5px -5px 10px orange;
+	}
+}
 /*================================== SERVICES SECTION ===============================*/
 .h2-title{
 	font-family: 'Poppins', sans-serif;
@@ -101,6 +131,22 @@ header section button{
 	border-radius: 50% !important;
 	border: 1px solid;
 	color: white;
+	
+}
+#services .card i, #team .card i{
+	animation: icons 4s cubic-bezier(0.1, 0, 0, 0.1) infinite;
+}
+/*------------- @keyframes icons -----------*/
+@keyframes icons{
+	0%{
+		transform: scale(0);
+	}
+	50%{
+		transform: scale(0.8, 0.8) rotate(180deg);
+	}
+	100%{
+		transform: scale(0.9, 0.9);
+	}
 }
 .card-title{
 	font-family:  'Poppins', sans-serif;
