@@ -254,6 +254,7 @@ header section button{
 	margin: 0;
 	border: none;
 	color: black;
+	cursor: pointer;
 }
 
 /*=========================== Companies Section =========================*/
